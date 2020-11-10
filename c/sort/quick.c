@@ -36,7 +36,7 @@ void qsort(int data[], int left, int right)
 
 int main(void)
 {
-    int data[] = {1, 4, 5, 6, 2, 3, 1, 1, 7, 8, 10, 14, 13, 15, 20, 21, 22, 23, 50, 41};
+    int data[] = {1, 1, 1, 1, 1};
     int len = sizeof(data) / sizeof(data[0]);
     int i = 0;
 
