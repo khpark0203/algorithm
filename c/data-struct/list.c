@@ -2,9 +2,9 @@
 #include <string.h>
 #include <stdlib.h>
 
-typedef struct stNode {
+typedef struct node {
     int val;
-    struct stNode* next;
+    struct node* next;
 } Node;
 
 Node* mknode(int val)
@@ -29,7 +29,7 @@ void display(Node* root)
 {
     Node* n = root;
     if (!n) {
-        printf("Nothing!\n");
+        printf("Nothing in list\n");
     } else {
         while (n) {
             printf("%d ", n->val);
